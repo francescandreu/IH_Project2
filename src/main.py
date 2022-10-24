@@ -1,28 +1,5 @@
-# Program FLOW
-# 1. Data gathering: (songs.py)
-#   - Establish conexion with APIs: 
-#       - Spotify 
-#       - Lyrics: 
-#           - Json with info of the song (URL to lyrics page)
-#           - Web scrapping
-#   - Check conexion
-# 2. Data cleaning
-# 3. Data structuring
-# 4. Data visualization:
-#   - Top genres per year
-#   - Top artists per year
-#   - Most used words per genres
-#   - Most used words per year 
-#   - Used words per genre and year (evolution)
-#   - 
-
-import requests
-import os
-import json
-import re
 import numpy as np
 import pandas as pd
-from pandas import json_normalize
 from dotenv import load_dotenv
 from collections import Counter
 
