@@ -1,6 +1,6 @@
-# IH_Project2
+# IronHack Project2
 
-# Most used word in Top Hit songs
+# Top Words in Top Songs
 
 ## Project description
 This project goal is to obtain the Top100 segons from the year 1970 until 2021. From those songs, analyize the word frequency and obtaing which are the most utilitzed in the Top hit songs for every year.
